@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
 <body>
 
 <h3>Contact Form</h3>
@@ -23,12 +26,20 @@
     <label for="comment">Comment</label>
     <textarea id="comment" name="comment" placeholder="Comment" style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" id="contact-form-btn">
   </form>
 </div>
   
 </body>
 </html>
+
+<script>
+$(document).ready(function(){
+  $("#contact-form-btn").click(function(){
+    alert("hi");
+  });
+});
+</script>
 
 
 <style>
