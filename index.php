@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+echo
+'<!DOCTYPE html>
 <html>
 <body>
 
@@ -9,10 +11,8 @@
   <input type="text" id="l_name" name="l_name"><br><br>
   <input type="submit" value="Submit">
 </form>
-
-  <?php
-    echo "hi";
-  ?>
   
 </body>
-</html>
+</html>';
+
+  ?>
